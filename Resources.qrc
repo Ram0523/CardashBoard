@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>../Downloads/dash1.jpg</file>
+        <file>../Downloads/OIP.png</file>
+        <file>../Downloads/user blue (2).png</file>
+        <file>../Downloads/car-png-logo-hd-transparent-png-50241-768x768.png</file>
+        <file>../Downloads/Speedometer.png</file>
+        <file>../Downloads/right arrow.png</file>
+        <file>../Downloads/left arrow.png</file>
+    </qresource>
+</RCC>
