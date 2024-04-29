@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DashBoard</class>
+ <widget class="QDialog" name="DashBoard">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>10</y>
+     <width>491</width>
+     <height>411</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="Resources.qrc">:/Downloads/Speedometer.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QDial" name="dial">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>30</y>
+     <width>211</width>
+     <height>391</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="lcd_Km">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>390</y>
+     <width>151</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"> color:#D6D3F6;
+ border-radius: 10px;
+background-color: #1D245B;
+  border: 2px solid #F979AB ;
+
+</string>
+   </property>
+   <property name="smallDecimalPoint">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="lcd_Engine">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>390</y>
+     <width>151</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"> color:#D6D3F6;
+ border-radius: 10px;
+background-color: #1D245B;
+  border: 2px solid #F979AB ;
+
+</string>
+   </property>
+   <property name="smallDecimalPoint">
+    <bool>true</bool>
+   </property>
+   <property name="value" stdset="0">
+    <double>0.000000000000000</double>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_LeftSIgnal">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>390</y>
+     <width>100</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="Resources.qrc">:/Downloads/left arrow.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_RightSignal">
+   <property name="geometry">
+    <rect>
+     <x>850</x>
+     <y>390</y>
+     <width>100</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="Resources.qrc">:/Downloads/right arrow.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Left_Signal">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>460</y>
+     <width>89</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>LEFT</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Right_Signal">
+   <property name="geometry">
+    <rect>
+     <x>860</x>
+     <y>460</y>
+     <width>89</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>RIGHT</string>
+   </property>
+  </widget>
+  <widget class="QProgressBar" name="progressBar_Fuel">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>110</y>
+     <width>118</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"> color:#D6D3F6;
+ border-radius: 10px;
+background-color: #1D245B;
+  border: 2px solid #F979AB ;
+
+</string>
+   </property>
+   <property name="value">
+    <number>24</number>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>lcd_Km</zorder>
+  <zorder>lcd_Engine</zorder>
+  <zorder>dial</zorder>
+  <zorder>label_LeftSIgnal</zorder>
+  <zorder>label_RightSignal</zorder>
+  <zorder>Left_Signal</zorder>
+  <zorder>Right_Signal</zorder>
+  <zorder>progressBar_Fuel</zorder>
+ </widget>
+ <resources>
+  <include location="Resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
