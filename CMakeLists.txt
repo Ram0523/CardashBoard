@@ -45,6 +45,7 @@ user_prefrence.h user_prefrence.cpp user_prefrence.ui
 add_user.h add_user.cpp add_user.ui
 Resources.qrc
 ApiTester.cpp
+cardashboard.qml
 
     )
 # Define target properties for Android with Qt 6 as:
